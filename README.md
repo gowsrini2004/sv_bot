@@ -32,8 +32,7 @@ Here are some screenshots of the app:
 
 ![image](https://github.com/user-attachments/assets/19921f45-f4b9-4173-b544-0760665bce99)
 
-**
-_Natural Language Query Interface_**
+**_Natural Language Query Interface_**
 
 
 ![image](https://github.com/user-attachments/assets/9f869b9a-c1e0-42bf-bf27-22b54ba13f32)
@@ -56,7 +55,7 @@ Open in Browser
 
 Navigate to http://localhost:8501 in your web browser.
 
-##Using the App
+## Using the App
 
 Input Letters: Convert Swami Vivekananda’s letters into a knowledge graph.
 Ask Questions: Enter natural language queries to retrieve information from the knowledge graph.
