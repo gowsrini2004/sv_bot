@@ -1,4 +1,6 @@
 # Building a Knowledge Graph from Swami Vivekananda’s Letters with a Natural Language Query Interface Using Neo4j and Azure OpenAI
+
+
 ## Overview
 Welcome to the Building a Knowledge Graph from Swami Vivekananda’s Letters with a Natural Language Query Interface Using Neo4j and Azure OpenAI!
 
