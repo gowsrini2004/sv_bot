@@ -17,27 +17,27 @@ Selenium: A tool for visualizing the knowledge graph on the web page.
 
 ## Screenshots
 Here are some screenshots of the app:
-###Login Page
+_Login Page_
 ![image](https://github.com/user-attachments/assets/39be09b6-f4b7-473d-ad47-0fc2e08e420a)
 
-###Admin Page
+_Admin Page_
 ![image](https://github.com/user-attachments/assets/c69e6720-b4f5-4701-9aa2-3e8687ff4e6c)
 
-###Giving letter as an input
+_Giving letter as an input_
 ![image](https://github.com/user-attachments/assets/19921f45-f4b9-4173-b544-0760665bce99)
 
 
-###Natural Language Query Interface
+_Natural Language Query Interface_
 ![image](https://github.com/user-attachments/assets/9f869b9a-c1e0-42bf-bf27-22b54ba13f32)
 
 
-###Knowledge Graph Visualization
+_Knowledge Graph Visualization_
 ![image](https://github.com/user-attachments/assets/5765f616-0d8f-4080-aa9f-4b15b31cefd0)
 
 
 
 ##How to Run the App
-###Start the App
+Start the App
 
 bash
 Copy code
