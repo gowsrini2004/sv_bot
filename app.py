@@ -2,6 +2,7 @@ import streamlit as st
 from text_to_graph import text_to_graph
 from graph_qa_chain import graph_qa_chain
 from graph_rag import graph_rag
+from show_graph import show_graph
 
 def main():
     # Initialize session state variables
@@ -94,17 +95,23 @@ def admin_page():
             st.session_state.method_type = 'GraphRAG'
             st.session_state.page = 'sv_bot'
             st.experimental_rerun()
-
-    if st.button("Enter Letter", key='enter_letter'):
-        st.session_state.page = 'letter_input'
-        st.experimental_rerun()
-    if st.button("Go to User Page", key='go_to_user'):
-        st.session_state.page = 'user'
-        st.experimental_rerun()
+    col4, col5, col6 = st.columns([1, 1, 1])
+    with col4:
+        if st.button("Enter Letter", key='enter_letter'):
+            st.session_state.page = 'letter_input'
+            st.experimental_rerun()
+    with col5:
+        if st.button("Go to User Page", key='go_to_user'):
+            st.session_state.page = 'user'
+            st.experimental_rerun()
 
     # Logout button at the bottom of the page
     if st.button("Logout", key='admin_logout'):
         logout()
+    if st.button("Show Graph"):
+        show_graph()
+        st.session_state.page = "admin_page"
+        st.experimental_rerun()
 
 def letter_input_page():
     st.title("Enter Letter")
