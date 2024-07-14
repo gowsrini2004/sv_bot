@@ -36,7 +36,7 @@ _Knowledge Graph Visualization_
 
 
 
-##How to Run the App
+## How to Run the App
 Start the App
 
 bash
